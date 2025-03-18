@@ -1,7 +1,8 @@
 // /pages/404.js
 export default function NotFound() {
   return (
-    <div className="flex items-center justify-center min-h-screen bg-neutral-700">
+    <div className="flex flex-col gap-10 justify-center items-center h-screen bg-gradient-to-r from-purple-800 to-pink-900">
+      <img src="/logo.png" alt="logo" className="h-20 w-auto" />
       <div className="text-center p-10 bg-neutral-200 rounded-lg shadow-xl max-w-sm w-[90%]">
         <h1 className="text-6xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-pink-500 to-purple-600">
           Oops!
