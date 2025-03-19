@@ -1,9 +1,9 @@
 "use client";
-import { useState } from "react";
+import { Suspense, useState } from "react";
 import { useToast } from "../contexts/ToastContext";
 import { useSearchParams } from "next/navigation";
 
-export default function ResetPassword() {
+function ResetPasswordContent() {
   const { createToast } = useToast();
   const searchParams = useSearchParams();
   const token = searchParams.get("token");
@@ -98,5 +98,13 @@ export default function ResetPassword() {
         </button>
       </div>
     </div>
+  );
+}
+
+export default function ResetPassword() {
+  return (
+    <Suspense>
+      <ResetPasswordContent />
+    </Suspense>
   );
 }
