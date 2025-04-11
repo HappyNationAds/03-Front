@@ -29,7 +29,7 @@ function ResetPasswordContent() {
       });
       return;
     }
-    fetch("https://octopus-supreme-sole.ngrok-free.app/auth/resetPassword", {
+    fetch("https://api.happynationspy.com:3030/auth/resetPassword", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
