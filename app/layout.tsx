@@ -14,8 +14,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Happy Nation Ads",
-  description: "Happy Nation Ads",
+  title: "Happy Nation Spy",
+  description: "Happy Nation Spy",
 };
 
 export default function RootLayout({
