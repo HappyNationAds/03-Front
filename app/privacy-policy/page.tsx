@@ -85,7 +85,7 @@ const Policies = () => {
         <h2 className="text-[24px] text-center font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-pink-500 to-purple-600">
           Contato
         </h2>
-        <p className="mt-4 text-[16px] my-[10px] text-black">
+        <div className="mt-4 text-[16px] my-[10px] text-black">
           <strong>E-mail: </strong>
           <a href="mailto:suportemarconihappynation@gmail.com">
             suportemarconihappynation@gmail.com
@@ -96,7 +96,7 @@ const Policies = () => {
               https://happynationspy.com
             </a>
           </p>
-        </p>
+        </div>
       </div>
     </div>
   );
